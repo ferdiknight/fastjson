@@ -175,9 +175,9 @@ public class DeserializeBeanInfo {
             }
 
             // support builder set
-            if (!(method.getReturnType().equals(Void.TYPE) || method.getReturnType().equals(clazz))) {
+           /* if (!(method.getReturnType().equals(Void.TYPE) || method.getReturnType().equals(clazz))) {
                 continue;
-            }
+            }*/
 
             if (method.getParameterTypes().length != 1) {
                 continue;
